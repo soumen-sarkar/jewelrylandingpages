@@ -1,0 +1,137 @@
+/*Medium device (MD)*/
+@media (max-width: 1199px) {
+	.serviceImg:after{
+		width: 100%;
+	}
+	.heroImgWrap:after{
+		width: 100%;
+	}
+	.heroShadowBox h1 {
+		left: 0;
+		padding: 10px 0 30px;
+		margin: 0;
+		max-width: 100%;
+		bottom: 0;
+		width: 100%;
+		background-color: rgba(0,0,0,0.8);
+		font-size: 33px;
+	}
+	.heroShadowBox h1 span.newLine{
+		display: inline !important;
+	}
+	.thumbnailWrap img,
+	.videoAndImage iframe{
+		width: 891px !important;
+		height: 406px !important;
+	}
+}
+/*Small device (SD)*/
+@media (max-width: 991px) {
+	.servicesWide{
+		padding-bottom: 60px;
+	}
+	.eachService{
+		margin-bottom: 60px;
+	}
+	.serviceImg img{
+		width: 100%;
+	}
+	.thumbnailWrap img,
+	.videoAndImage iframe{
+		width: 567px !important;
+		height: 290px !important;
+	}
+	.recentWorksWrap .owl-nav i.fa{
+		color: #fff;
+		font-size: 45px;
+	}
+	.recentWorksWrap .owl-nav{
+		top: 50%;
+	}
+	.recentWorksWrap #owl_prev{
+		left: 10px;
+	}
+	.recentWorksWrap #owl_next{
+		right: 10px;
+	}
+	.recentWorksWide h2{
+		margin-bottom: 48px;
+	}
+	.recentWorks .item{
+		margin: 0;
+	}
+	.heroShadowBox h1 {
+		font-size: 24px;
+	}
+}
+/*Extra small device (XS)*/
+@media (max-width: 767px) {	
+	.navbar-nav {
+	 margin: 0;
+	}
+	section{
+		padding: 30px 0;
+	}
+	.servicesWide{
+		padding-bottom: 0;
+	}
+	.heroShadowBox h1 {
+		font-size: 20px;
+	}
+	.headerLeft,
+	.headerRight{
+		text-align: center !important;
+	}
+	p.mainTagline{
+		max-width: 100%;
+		border-bottom: none;
+	}
+	.headerRight{
+		padding-top: 10px;
+	}
+	span.headerinfo{
+		padding-left: 8px;
+	}
+	.thumbnailWrap img,
+	.videoAndImage iframe{
+		width: 270px !important;
+		height: 138px !important;
+	}
+	.recentWorksWide h2{
+		margin-bottom: 30px;
+	}
+	#showMore{
+		margin-bottom: 60px;
+	}
+	.servicesWide h2 {
+    	margin-bottom: 30px;
+		font-size: 24px;
+	}
+	#showMore {
+    	margin-bottom: 30px;
+	}
+	button{
+		padding: 10px 30px;
+	}
+	.eachService {
+    	margin-bottom: 30px;
+	}
+	.filterBox a{
+		padding: 4px 16px;
+	}
+	th,
+	td{
+		font-size: 14px;
+	}
+}
+/*Extra small device (XS-More refine)*/
+@media (max-width: 480px) {	
+	.heroShadowBox h1{
+		font-size: 16px;
+		position: relative;
+	}
+	.recentWorksWrap .item p{
+		margin-bottom: 15px;
+		font-size: 18px;
+	}
+}

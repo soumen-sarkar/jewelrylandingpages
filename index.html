@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jewelry shop landing page</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- Owl carousel stylesheet -->
+	<link href="css/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<!-- Custom stylesheet -->
+    <link href="css/global-style.css" rel="stylesheet">
+	<!-- Media queries stylesheet -->
+    <link href="css/media-queries.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<!-- Header -->
+    <header class="wide headerWide clearfix">
+    	<div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <div class="headerLeft">
+                        <p class="mainTagline">Ремонт любых ювелирных изделий и бюжетерии</p>
+                        <p class="subTagline">в присутсвтии заказчика</p>
+                    </div>    
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="headerRight">
+                        <p><i class="fa fa-phone"></i><span class="headerinfo"><a href="tel: 8 (932) 233 23 22">8 (932) 233 23 22</a></span></p>
+                        <p><i class="fa fa-map-marker"></i><span class="headerinfo">ул. Восточная 43, ТЦ Пикник, 2 этаж</span></p>
+                    </div>    
+                </div>
+            </div>
+        </div>    
+    </header>
+    <!-- End Header -->
+    
+    <!-- Hero -->
+    <section class="wide heroWide clearfix">
+   		<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="heroImgWrap">
+                    	<a href="http://depositphotos.com/71479981/stock-photo-skilled-jeweller.html">
+                            <div class="heroShadowBox">
+                                <img src="img/static-banner.jpg" alt="" title="" class="img-responsive" />
+                                <h1><span class="newLine textWhite">Бережно починим </span> <span class="newLine textWhite">ваше</span><span class="textGolden newLine"> любимое украшение</span></h1>
+                            </div>
+                        </a>    
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!-- End Hero -->
+    
+    <!-- Service -->
+	<section class="wide servicesWide clearfix" id="service">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Прайс<span class="textDarkGray"> лист</span></h2>
+				</div>	
+			</div><!-- /.row -->
+			<div class="row">
+				<div class="col-md-3 col-sm-6">
+					<div class="eachService text-center">
+						<div class="serviceImg">
+							<a href="http://depositphotos.com/search/goldsmith.html?qview=5396140">
+								<img src="img/chain-repair.jpg" alt="Chain repair" title="Chain repair" class="img-responsive" />
+							</a>
+						</div>
+						<p>Chain repair</p>
+						<h3>от <span class="textGolden">500</span> руб</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="eachService text-center">
+						<div class="serviceImg">
+							<a href="http://depositphotos.com/search/jewelry-beads.html?4alyac&qview=37059043">	
+								<img src="img/bead-restore.jpg" alt="Chain repair" title="Chain repair" class="img-responsive" />
+							</a>
+						</div>
+						<p>Beads restore</p>
+						<h3>от <span class="textGolden">100</span> руб</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="eachService text-center">
+						<div class="serviceImg">
+							<a href="http://depositphotos.com/32061873/stock-photo-repairing-ring.html">	
+								<img src="img/cleaning.jpg" alt="Chain repair" title="Chain repair" class="img-responsive" />
+							</a>
+						</div>
+						<p>Cleaning (ultrasonic cleaning)</p>
+						<h3>от <span class="textGolden">500</span> руб</h3>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<div class="eachService text-center">
+						<div class="serviceImg">
+							<a href="http://depositphotos.com/search/goldsmith.html?qview=5289373">
+								<img src="img/ring-resize.jpg" alt="Chain repair" title="Chain repair" class="img-responsive" />
+							</a>
+						</div>
+						<p>Ring resizing</p>
+						<h3>от <span class="textGolden">700</span> руб</h3>
+					</div>
+				</div>
+			</div><!-- /.row -->
+			<div class="row">
+                <div class="col-md-12 text-center">
+                    <button id="showMore">Больше</button>
+                </div>
+            </div><!-- /.row -->	
+			<!--############# Loaded More Section ############-->
+			<div class="row loadedMore">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="serviceFilter text-right">
+								<div class="filterBox">
+									<a href="javascript:void(0)" id="regularService" href="#" class="priceFilier active">Regular</a>
+									<a href="javascript:void(0)" id="wholeSaleService" href="#" class="priceFilier">Wholesale</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- /.row -->
+					<div class="row">
+						<div class="col-md-12 priceTable">
+							<table class="table" id="regularTable">
+								<thead>
+									<tr>
+										<th>Service name</th>
+										<th>Service price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Service 1</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 2</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 3</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 4</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 5</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 6</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 7</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 8</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 9</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 10</td>
+										<td>Price</td>
+									</tr>
+								</tbody>
+							</table>
+                            
+                            <table class="table" id="wholeSaleTable">
+								<thead>
+									<tr>
+										<th>Wholesale service name</th>
+										<th>Wholesale service price</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Service 1</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 2</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 3</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 4</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 5</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 6</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 7</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 8</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 9</td>
+										<td>Price</td>
+									</tr>
+									<tr>
+										<td>Service 10</td>
+										<td>Price</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div><!--/.row-->
+					<div class="row">
+						<div class="col-md-12 text-center">
+							<button id="showLess">закрыть</button>
+						</div>
+					</div><!-- /.row -->	
+				</div>
+			</div>
+			<!--############# End Loaded More Section ############-->
+		</div>
+	</section>
+	<!-- End Services -->
+    
+    <!-- Video -->
+    <section class="wide videoWide clearfix">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="videoAndImage text-center">
+						
+                    	<!-- 1170X597 -->
+                    	<div onclick="this.nextElementSibling.src='https://www.youtube.com/embed/xJ7mDQyXUFI?list=PLFT7vTZy_jf3ABkBvGyn4-5r5dD-jTX8V?rel=0&autoplay=1'; this.style.display='none'; this.nextElementSibling.style.visibility='visible'; this.nextElementSibling.style.display='block'; " class="thumbnailWrap">
+                        	<img src="img/video-thumbnail.jpg" alt="" title="" width="1140" height="582" />
+                        </div>    
+                        <iframe class="mainVideo" width="1140" height="582" src="" frameborder="0" allowfullscreen style="display: none; visibility: hidden;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Video -->
+    
+    <!-- Recent works -->
+    <section class="wide recentWorksWide clearfix">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="row">
+                        <div class="col-md-12">
+                            <h2><span class="textDarkGray">Последние</span> работы</h2>
+                        </div>	
+                    </div><!-- /.row -->
+                    
+                    <div class="row recentWorksWrap">
+                    	<div class="col-md-10 col-md-offset-1">
+                        	
+                            <div class="row">
+                                <div id="recentWorksSlides" class="owl-carousel recentWorks">
+                                	<div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div><div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">Before</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/before.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    <div class="item">
+                                        <p><span class="textGolden">After</span> service</p>
+                                        <a href="http://depositphotos.com/stock-photos/jewelry-showcase.html?qview=14426633&4a59ze"><img src="img/after.jpg" alt="" title="" class="img-responsive" /></a>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- /.row -->
+                                
+                        </div>
+                        
+                        <a href="javascript:void(0)" id="owl_prev" class="owl-nav"><i class="fa fa-angle-left"></i></a>
+                        <a href="javascript:void(0)" id="owl_next" class="owl-nav"><i class="fa fa-angle-right"></i></a>
+                    </div><!-- /.row -->
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Recent works -->
+    
+    <!-- Footer -->
+    <footer class="wide footerWide clearfix">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-md-12">
+                	<div class="footerContent text-center">
+                    	<p>тел. <a href="tel: 8 (932) 233 23 22">8 (932) 233 23 22</a>    |    <a href="mailto: contact@email.ru">contact@email.ru</a></p>
+                        <p>ул. Восточная 43, ТЦ Пикник, 2 этаж</p>
+                        <p>ИП “Чешков”, лицензия №23234443434</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+	<!-- Owl carousel Javascripts -->
+	<script src="js/owl-carousel/owl.carousel.js"></script>
+	<!-- Custom Javascripts -->
+	<script src="js/custom-scripts.js"></script>
+	
+	<!-- Page specific javascripts -->
+    <script>
+    	/* Load more and less scripts */
+		$('#showMore').on('click', function(){
+			$(this).fadeOut();
+			$('.loadedMore').fadeIn();
+			
+		});
+		$('#showLess').on('click', function(){
+			$('.loadedMore').slideUp(600);
+			$('#showMore').fadeIn();
+			
+		});
+		/* regular and wholesale service tabs */
+		$('#regularService').on('click', function(){
+			$('.priceFilier').removeClass('active');
+			$(this).addClass('active');
+			
+			$('#regularTable').show();
+			$('#wholeSaleTable').hide();
+		});
+		$('#wholeSaleService').on('click', function(){
+			$('.priceFilier').removeClass('active');
+			$(this).addClass('active');
+		
+			$('#wholeSaleTable').show();
+			$('#regularTable').hide();
+		});
+		/* DOM ready scripts */
+    	$(document).ready(function() {
+ 		  
+		  /* Recent works owl carousel scripts */	
+		  var owl = $("#recentWorksSlides");
+		 
+		  owl.owlCarousel({
+			 
+			  itemsCustom : [
+				[0, 2],
+				[450, 2],
+				[600, 2],
+				[700, 2],
+				[1000, 2],
+				[1200, 2],
+				[1400, 2],
+				[1600, 2]
+			  ],
+			  rewindNav: false
+		 
+		  });
+		  // Custom Navigation Events
+		  $("#owl_next").click(function(){
+			owl.trigger('owl.next').trigger('owl.next');
+		  })
+		  $("#owl_prev").click(function(){
+			owl.trigger('owl.prev').trigger('owl.prev');
+		  })  
+		 
+		});
+	  
+    </script>
+  </body>
+</html>
